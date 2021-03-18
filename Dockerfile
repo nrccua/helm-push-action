@@ -1,8 +1,8 @@
 FROM plugins/base:linux-amd64
 
-LABEL maintainer="Serebrennikov Stanislav <goodsmileduck@gmail.com>" \
+LABEL maintainer="Carlos Ortiz <carlos.ortiz@nrccua.org>" \
   org.label-schema.name="helm chart push" \
-  org.label-schema.vendor="Serebrennikov Stanislav" \
+  org.label-schema.vendor="Carlos Ortiz" \
   org.label-schema.schema-version="1.0"
 
 ENV HELM_VERSION v3.3.1
